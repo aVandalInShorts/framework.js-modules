@@ -21,11 +21,12 @@
 					pager: t.attr('data-cycle-pager') || '> .cycle-pager',
 					next: t.attr('data-cycle-next') || '> .cycle-next',
 					prev: t.attr('data-cycle-prev') || '> .cycle-prev',
-					timeout: t.data('cycle-timeout') || 4000,
-					paused: t.data('cycle-paused') || false,
-					pauseOnHover: t.data('cycle-pause-on-hover') || false,
-					fx: t.data('cycle-fx') || 'fade',
-					captionTemplate: t.attr('data-cycle-caption-template') || '',
+					timeout: t.attr('data-cycle-timeout') || 4000,
+					paused: t.attr('data-cycle-paused') || false,
+					pauseOnHover: t.attr('data-cycle-pause-on-hover') || false,
+					fx: t.attr('data-cycle-fx') || 'fade',
+					captionTemplate: t.attr('data-cycle-caption-template') || 
+						'',
 					log: App.debug()
 				};
 				
